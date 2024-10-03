@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    { "item": "va11halla:shake_pot"},
+    { "tag": "forge:btcingredients"},
+    { "tag": "forge:btcingredients"}
+  ],
+
+  "result": {"item": "va11halla:cyberjunk"}
+
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "neapolitan:ice_cubes",
+      "required": false
+    },
+    "minecraft:ice",
+    "va11halla:crushed_ice"
+  ]
+}

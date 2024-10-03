@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2foodcore:juiceritem",
+      "required": false
+    },
+    "va11halla:cyber_blender"
+  ]
+}

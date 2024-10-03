@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "tag": "forge:tool_juicer"},
+		{ "tag": "forge:ethanolfood" },
+		{ "tag": "forge:ethanolfood" }
+	],
+
+	"result": {
+		"count": 9,
+		"item": "va11halla:karmotrine"
+	}
+
+}

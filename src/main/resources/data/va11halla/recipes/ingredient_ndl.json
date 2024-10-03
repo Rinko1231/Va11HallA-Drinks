@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "item": "va11halla:cyber_blender"},
+		{ "tag": "forge:waterlike" },
+		{ "tag": "forge:waterlike" }
+	],
+
+	"result": {
+		"count": 6,
+		"item": "va11halla:ndl"
+	}
+
+}

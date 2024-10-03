@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+
+    {
+      "id": "farmersdelight:tree_bark",
+      "required": false
+    },
+    {
+      "id": "coffee_delight:coffee_beans",
+      "required": false
+    },
+    "minecraft:warped_fungus",
+    "minecraft:cocoa_beans"
+
+  ]
+}

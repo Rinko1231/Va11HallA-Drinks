@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "item": "va11halla:shake_pot"},
+		{ "item": "va11halla:ndl"},
+		{ "item": "va11halla:ndl"},
+		{ "item": "va11halla:bronson"},
+		{ "item": "va11halla:bronson"},
+		{ "item": "va11halla:karmotrine"},
+		{ "item": "va11halla:karmotrine"}
+	],
+
+	"result": {"item": "va11halla:absinthe"}
+
+}

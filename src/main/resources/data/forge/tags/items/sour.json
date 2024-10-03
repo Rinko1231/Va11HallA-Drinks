@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2foodcore:vinegaritem",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lime",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:lemon",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:lemonitem",
+      "required": false
+    },
+    {
+      "id": "lemoned:lemon",
+      "required": false
+    },
+    {
+      "id": "simplefarming:blueberries",
+      "required": false
+    },
+    "minecraft:glow_berries"
+  ]
+}

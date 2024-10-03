@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" NG",
+		"N N",
+		"GN "
+	],
+	
+	"key":
+	{
+		"N": { "tag": "forge:nuggets/iron"},
+		"G": { "tag": "forge:ingots/iron"}
+
+	},
+	
+	"result": {"item": "va11halla:shake_pot"}
+	
+}

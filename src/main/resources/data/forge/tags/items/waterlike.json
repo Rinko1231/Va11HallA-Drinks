@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2foodcore:freshwateritem",
+      "required": false
+    },
+    "minecraft:water_bucket",
+    "minecraft:potion",
+    "minecraft:melon_slice"
+  ]
+}

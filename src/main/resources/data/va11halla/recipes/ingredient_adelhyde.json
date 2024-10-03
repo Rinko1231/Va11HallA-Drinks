@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "tag": "forge:tool_juicer"},
+		{ "tag": "forge:sweet" },
+		{ "tag": "forge:sweet" }
+	],
+
+	"result": {
+		"count": 4,
+		"item": "va11halla:adelhyde"
+	}
+
+}

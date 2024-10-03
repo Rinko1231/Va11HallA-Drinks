@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "item": "va11halla:shake_pot"},
+		{ "item": "va11halla:ndl"},
+		{ "item": "va11halla:adelhyde"},
+		{ "item": "va11halla:adelhyde"},
+		{ "item": "va11halla:delta"},
+		{ "item": "va11halla:karmotrine"}
+	],
+
+	"result": {"item": "va11halla:brandtini"}
+
+}

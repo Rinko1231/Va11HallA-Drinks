@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "MIT"
+issueTrackerURL = ""
+[[mods]]
+modId = "va11halla"
+version = "1.20.1-1.0.0"
+displayName = "Va-11 Hall-A"
+displayURL = ""
+logoFile = "Logo.png"
+authors = "Rinko1231, R_Liu"
+description = '''
+Time to mix drinks and change lives.
+'''
+[[dependencies.va11halla]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.va11halla]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"

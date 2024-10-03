@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "simplefarming:pepper",
+      "required": false
+    },
+    {
+      "id": "simplefarming:ginger",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:chilipepperitem",
+      "required": false
+    },
+    "minecraft:nether_wart",
+    "minecraft:crimson_fungus"
+  ]
+}
