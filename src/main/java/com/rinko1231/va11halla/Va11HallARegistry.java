@@ -1,7 +1,9 @@
 package com.rinko1231.va11halla;
 
 
+import com.rinko1231.va11halla.item.BlenderItem;
 import com.rinko1231.va11halla.item.DrinkItem;
+import com.rinko1231.va11halla.item.IngredientItem;
 import com.rinko1231.va11halla.item.ToolItem;
 import net.minecraft.world.item.Item;
 
@@ -15,15 +17,15 @@ public class Va11HallARegistry
     public static final DeferredRegister<Item> ITEMS_VANILLA = DeferredRegister.create(ForgeRegistries.ITEMS, Va11HallA.MODID);
     //Tool
     public static final RegistryObject<Item> SHAKE_POT = ITEMS_VANILLA.register("shake_pot", () -> new ToolItem(new ToolItem.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> CYBER_BLENDER = ITEMS_VANILLA.register("cyber_blender", () -> new ToolItem(new ToolItem.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> CYBER_BLENDER = ITEMS_VANILLA.register("cyber_blender", () -> new BlenderItem(new BlenderItem.Properties().stacksTo(1)));
     //Ingredients
-    public static final RegistryObject<Item> NDL = ITEMS_VANILLA.register("ndl", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ADELHYDE = ITEMS_VANILLA.register("adelhyde", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> BRONSON = ITEMS_VANILLA.register("bronson", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> DELTA = ITEMS_VANILLA.register("delta", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> FLANERGIDE = ITEMS_VANILLA.register("flanergide", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> KARMOTRINE = ITEMS_VANILLA.register("karmotrine", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CRUSHED_ICE = ITEMS_VANILLA.register("crushed_ice", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NDL = ITEMS_VANILLA.register("ndl", () -> new IngredientItem(new IngredientItem.Properties()));
+    public static final RegistryObject<Item> ADELHYDE = ITEMS_VANILLA.register("adelhyde", () -> new IngredientItem(new IngredientItem.Properties()));
+    public static final RegistryObject<Item> BRONSON = ITEMS_VANILLA.register("bronson", () -> new IngredientItem(new IngredientItem.Properties()));
+    public static final RegistryObject<Item> DELTA = ITEMS_VANILLA.register("delta", () -> new IngredientItem(new IngredientItem.Properties()));
+    public static final RegistryObject<Item> FLANERGIDE = ITEMS_VANILLA.register("flanergide", () -> new IngredientItem(new IngredientItem.Properties()));
+    public static final RegistryObject<Item> KARMOTRINE = ITEMS_VANILLA.register("karmotrine", () -> new IngredientItem(new IngredientItem.Properties()));
+    public static final RegistryObject<Item> CRUSHED_ICE = ITEMS_VANILLA.register("crushed_ice", () -> new IngredientItem(new IngredientItem.Properties()));
     //Drinks
     public static final RegistryObject<Item> BAD_TOUCH = ITEMS_VANILLA.register("bad_touch", () -> new DrinkItem(new DrinkItem.Properties().food(VHFoodValues.HARD_DRINKS)));
     public static final RegistryObject<Item> BLOOM_LIGHT = ITEMS_VANILLA.register("bloom_light", () -> new DrinkItem(new DrinkItem.Properties().food(VHFoodValues.HARD_DRINKS)));
